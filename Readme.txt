@@ -1,4 +1,5 @@
- Basic Calculator 🧮  
+Task 1:
+    Sub Task 1: Basic Calculator 🧮  
 
 ## Description  
 This is a simple Basic Calculator built using Python. It allows users to perform basic arithmetic operations, including:  
@@ -27,7 +28,7 @@ Error: Division by zero is not allowed.
 
 
 
-🎯 Number Guessing Game
+Sub Task 2: 🎯 Number Guessing Game
 
 📌 Project Overview
 The Number Guessing Game is a simple Python-based game where the player tries to guess a randomly chosen number between 1 and 100. The program provides hints after each incorrect guess, helping the player reach the correct answer.
@@ -54,3 +55,29 @@ python number_guessing_game.py
 
 Start guessing the number!
 
+
+Task 2:  Rock, Paper, Scissors Game 🎮
+
+Description
+This is a simple Rock, Paper, Scissors game implemented in Python. The user plays against the computer, which randomly selects one of the three options.
+
+## Features
+- User inputs their choice: rock, paper, or scissors.
+- Computer randomly selects a choice.
+- The winner is determined based on standard game rules:
+  - Rock beats Scissors
+  - Scissors beats Paper
+  - Paper beats Rock
+- Includes input validation to handle incorrect entries.
+- Allows the user to exit the game anytime by typing "quit".
+
+## How to Play?
+1. Run the script.
+2. Enter `rock`, `paper`, or `scissors` when prompted.
+3. The computer will make its choice.
+4. The winner will be displayed on the screen.
+5. Type `"quit"` to exit the game.
+
+## Technologies Used
+- Python 🐍
+- Random module for generating computer choices
