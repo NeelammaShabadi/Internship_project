@@ -56,7 +56,10 @@ python number_guessing_game.py
 Start guessing the number!
 
 
-Task 2:  Rock, Paper, Scissors Game 🎮
+
+
+
+##Task 2:  Rock, Paper, Scissors Game 🎮
 
 Description
 This is a simple Rock, Paper, Scissors game implemented in Python. The user plays against the computer, which randomly selects one of the three options.
