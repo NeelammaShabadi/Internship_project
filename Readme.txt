@@ -84,3 +84,74 @@ This is a simple Rock, Paper, Scissors game implemented in Python. The user play
 ## Technologies Used
 - Python 🐍
 - Random module for generating computer choices
+
+
+
+
+
+
+##Tic Tac Toe Game
+
+Description
+
+Tic Tac Toe is a classic two-player game where players take turns marking a 3x3 grid with their chosen symbol (X or O). The player who successfully places three of their marks in a horizontal, vertical, or diagonal row wins the game. If all spaces are filled without a winner, the game ends in a tie.
+
+##Features
+-Turn-based gameplay for two players
+-Input validation to prevent invalid moves
+-Automatic detection of wins and ties
+-Interactive console-based UI
+
+
+##How to Run the Game
+1. Ensure you have Python installed on your system.
+2. Download the tic_tac_toe.py script.
+3. Open a terminal or command prompt in the directory containing the script.
+4. Run the game using the command:
+      python tic_tac_toe.py
+
+
+##How to Play
+1. The game starts by asking Player 1 to choose their symbol (X or O). Player 2 gets the opposite symbol.
+2. Players take turns selecting a row and column to place their mark.
+3. The game checks after each move for a win or a tie.
+4. If a player wins, the game announces the winner and ends.
+5. If the board is full with no winner, the game declares a tie.
+
+
+##Game Rules
+>>Players can only place their symbol in an empty cell.
+>>A player wins by getting three of their symbols in a row, column, or diagonal.
+>>If the board is full with no winner, the game results in a tie.
+
+
+
+###Example Gameplay
+Hello! Welcome to Tic Tac Toe!
+Player 1, do you want to be X or O? X
+Player 2, you are O.
+
+Here is the playboard:
+---+---+---
+   |   |   
+---+---+---
+   |   |   
+---+---+---
+   |   |   
+
+Player X, it is your turn.
+Pick a row [0-2]: 1
+Pick a column [0-2]: 1
+
+---+---+---
+   |   |   
+---+---+---
+   | X |   
+---+---+---
+   |   |   
+
+... and so on.
+
+
+## Technologies Used
+- Python 🐍
