@@ -155,3 +155,28 @@ Pick a column [0-2]: 1
 
 ## Technologies Used
 - Python 🐍
+
+
+
+
+🔐 Random Password Generator  
+
+## 📌 Description  
+This **Random Password Generator** allows users to create secure passwords based on their chosen criteria. The program ensures strong security by letting users select password length and specific character types (uppercase, lowercase, numbers, special characters).  
+
+## 🚀 Features  
+- User-defined password length  
+- Option to include uppercase, lowercase, numbers, and special characters  
+- Ensures at least one character from selected categories  
+- Generates strong and random passwords  
+
+## 🛠️ How It Works  
+1. Run the script.  
+2. Enter the desired password length.  
+3. Select character types to include.  
+4. The program generates and displays a secure password.  
+
+## 💡 Technologies Used  
+- Python  
+- Random module  
+- String module  
